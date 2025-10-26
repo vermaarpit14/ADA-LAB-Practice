@@ -46,7 +46,6 @@ void Display() {
         printf("Priority Queue is Empty !!\n");
         return;
     }
-    printf("Processes in Priority Queue:\n");
     for (int i = 0; i < size; i++)
         printf("(PID=%d, Priority=%d) ", heap[i].pid, heap[i].priority);
     printf("\n");

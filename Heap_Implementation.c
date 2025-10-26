@@ -137,11 +137,10 @@ int main() {
             break;
 
         case 6:
-            printf("Exiting program... Goodbye!\n");
             exit(0);
 
         default:
-            printf("Invalid choice! Please try again.\n");
+            printf("Invalid choice!!\n");
         }
     }
     return 0;
